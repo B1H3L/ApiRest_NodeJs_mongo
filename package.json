@@ -1,0 +1,19 @@
+{
+  "name": "crudmongo",
+  "version": "0.0.1",
+  "description": "haremos un crud con node y mongodb",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "nodemon src/app.js"
+  },
+  "author": "billy helson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
